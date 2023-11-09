@@ -141,6 +141,7 @@ a.CurrPage {
 
 .skillLevel {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .progressBar {
@@ -214,7 +215,13 @@ a.CurrPage {
     }
 
     .progressBar {
-        width: 500px;
+        width: 90%;
+    }
+
+    .MainContent .skillLevel{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
     }
 }
 
