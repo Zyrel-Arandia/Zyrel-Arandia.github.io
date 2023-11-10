@@ -11,7 +11,7 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   min-height: 100vh;
   width: 100%;
@@ -182,6 +182,10 @@ a.CurrPage {
 }
 
 @media (max-width: 920px) {
+html,body {
+  height: 100%;
+  
+}
   .NavOption a {
     margin: 0 10px;
   }
@@ -191,6 +195,9 @@ a.CurrPage {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    min-height: 500px;
+    height: fit-content;
+    flex-grow: 1;
   }
 
   .MainContent {
